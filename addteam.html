@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Team</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/addteam.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <a href="index.html"><img id="logo" src="images/nav/logo.png"></a>
+        <div style="min-width: 50%;">
+        <ul id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#team-container">Teams</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div id="search-wrapper">
+            <div id="search-dec" style="background-color: yellowgreen; display: flex;">
+            <p style="margin-right: 5px;">search</p>
+            <i class="fa fa-search"></i>
+           </div>
+            <input id="search-box" type="text" name="search" placeholder="Search "/>
+        </div>
+       </div>
+        <div class="add">
+        <button class="add-new" id="new-team"><b>Add Team</b></button>
+        <button class="add-new" id="new-player"><b>Add Player</b></button>
+        </div>
+    </nav>
+    <!-- form code start -->
+    <form id="form-body">
+        <h1>Add Your Team</h1>
+        <div>
+        <lable>Team Name</lable><br>
+        <input type="text" name="Name"  placeholder="enter team name" required />
+        </div>
+        <br>
+        <div>
+            <lable>Team Logo</lable><br>
+            <input type="text" name="Icon"  placeholder="enter image url" required/>
+        </div>
+            <br>
+            <div>
+                <lable>Search Team name</lable><br>
+                <input type="text" name="form"  placeholder="used to search team" required/>
+            </div>
+                <br>
+         <div>
+            <lable>Captain</lable><br>
+            <input type="text" name="Captain"  placeholder="team Captain name" required/>
+        </div>
+            <br>
+        <div>
+            <lable>Number of players</lable><br>
+            <input type="number" name="Player-Count"  placeholder="enter number of players in team" required/>
+        </div>
+            <br>
+        <div>
+            <lable>Top Batsman</lable><br>
+            <input type="text" name="Top-Batsman" placeholder="TopBatsman name" required/>
+        </div>
+            <br>
+        <div>
+            <lable>Top Bowler</lable><br>
+            <input type="text" name="Top-Bowler"  placeholder="Top Bowler name" required/>
+        </div>
+            <br>
+        <div>
+            <label>Number of Championship-Won</label><br>
+            <input type="number" name="Championship-Won-Count" placeholder="enter number" required />
+        </div>
+        <br>
+        <div>
+            <button ="submit">submit</button>
+        </div>
+    </form>
+    
+    <footer>
+        <div class="footer-content">
+          <ul>
+              <li><h3>Teams</h3></li>
+              <li><a href="#">Mumbai Indians</a></li>
+              <li><a href="#">Chennai Super Kings</a></li>
+              <li><a href="#">Royal Challengers Bangalore</a></li>
+              <li><a href="#">Kolkata Knight Riders</a></li>
+              <li><a href="#">+ Many More</a></li>
+          </ul>
+          <ul>
+              <li><h3>About</h3></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Anti Corruption Policy</a></li>
+              <li><a href="#">Anti Doping Policy</a></li>
+              <li><a href="#">Code Of Conduct For Players And Teams Officials</a></li>
+          </ul>
+          <ul> 
+              <li><h3>Contact</h3></li>
+              <li>Contact</li>
+              <li>Sponsorship</li>
+              <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div id="owner">
+          <p>&copy; Created by siva Kumar</p>
+        </div>
+    </footer>
+
+    <script src="js/additem.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
